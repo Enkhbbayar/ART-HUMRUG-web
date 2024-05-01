@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="search.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <form method="GET">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">CodingLab</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Ulaanbaatar</span>
+      </li>
+      <li>
+        <div class="iocn-link">
+            <span class="link_name">Date</span>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <input type="radio" name="date" value="upcoming">Upcoming</input>
+          <input type="radio" name="date" value="thisweek">This week</input>
+          <input type="radio" name="date" value="recent">Recent</input>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+            <span class="link_name">Genre</span>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+            <input type="radio" name="genre" value="modern_art">Modern Art</input>
+            <input type="radio" name="genre" value="traditional">Traditional</input>
+            <input type="radio" name="genre" value="pop_art">Pop Art</input>
+          </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+              <span class="link_name">Venue</span>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <input type="radio" name="venue" value="gallery">Gallery</input>
+            <input type="radio" name="venue" value="museum">Museum</input>
+            <input type="radio" name="venue" value="outside">Outside</input>
+          </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+              <span class="link_name">Price Range</span>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <input type="radio" name="price" value="free">Free</input>
+            <input type="radio" name="price" value="lower price">Lower Price</input>
+            <input type="radio" name="price" value="middle price">Middle Price</input>
+            <input type="radio" name="price" value="over price">Over Price</input>
+          </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+              <span class="link_name">Types</span>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <input type="radio" name="exhibitiontype" value="solo">Solo</input>
+            <input type="radio" name="exhibitiontype" value="duo">Duo</input>
+            <input type="radio" name="exhibitiontype" value="group">Group</input>
+          </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+            <span class="link_name">Activities</span>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+            <input type="radio" name="activities" value="exhibition">Exhibition</input>
+            <input type="radio" name="activities" value="workshop">Workshop</input>
+          </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+              <span class="link_name">Category</span>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <li>Genre</li>
+            <input type="radio" name="genre" value="modern_art">Modern Art</input>
+            <input type="radio" name="genre" value="traditional">Traditional</input>
+            <input type="radio" name="genre" value="pop_art">Pop Art</input>
+          </ul>
+      </li>
+      <li>
+  </li>
+</ul>
+  </div>
+</form>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Drop Down Sidebar</span>
+    </div>
+  </section>
+  <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
+</body>
+</html>
