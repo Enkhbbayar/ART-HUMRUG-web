@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search | Art-humrug</title>
+  <!-- <link rel="stylesheet" href="artists.css"> -->
+  <!-- <link rel="stylesheet" href="header-footer.css"> -->
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="stylesheet" href="liked.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="header-footer.css">
+  <link rel="stylesheet" href="mediaqr.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+  <!-- <script type="module" src="liked-search.js"></script> -->
+  <!-- <script type="module" src="like-shared.js"></script> -->
+  <!-- <script type="module" src="search.js"></script> -->
+  <script type="module" src="liked.js"></script> 
+  <!-- <script type="module" src="main-js.js"></script> -->
+  <!-- <script type="module" src="gobi-shoppingcart.js"></script> -->
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="index.html"><img src="images/logo.png"></a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="search.html">Үзэсгэлэн</a></li>
+                    <li><a href="artist.html">Уран бүтээлчид</a></li>
+                    <li><a href="gallery.html">Бүтээлүүд</a></li>
+                    <li id="menu-last-item"><a href="aboutus.html">Бидний тухай</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="searchBox">
+                    <div class="searchToggle">
+                     <i class='bx bx-x cancel'></i>
+                     <i class='bx bx-search search'></i>
+                    </div>
+                    <form class="search-field" action="" method="GET">
+                        <input type="text" name="keyword" id="srch" placeholder="Search..." />
+                        <button type="submit">Хайх</button>
+                    </form>                         
+                 </div>
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+                <!-- <div class="heart">
+                    <gobi-shoppingcart color="#000"></gobi-shoppingcart>
+                </div> -->
+                <div class="icon-cart">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 32">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                    </svg>
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="tbody">
+    <div class="aside">
+        <form method="GET">
+            <div class="date">
+                <div class="sub-btn"><h3>Date</h3></div>
+                <label class="container">
+                    <input type="checkbox" name="date" value="upcoming">  
+                    Upcoming
+                    <span class="checkmark"></span>  
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="date" value="thisweek">  
+                    This week
+                    <span class="checkmark"></span>  
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="date" value="recent"> 
+                    Recent
+                    <span class="checkmark"></span>  
+                </label>
+            </div>
+            <div class="genre">
+                <div class="sub-btn"><h3>Genre</h3></div>
+                <label class="container">
+                    <input type="checkbox" name="genre" value="modern_art">Modern Art
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="genre" value="traditional">Traditional
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="genre" value="pop_art">Pop Art
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="venue">
+                <div class="sub-btn"><h3>Venue</h3></div>
+                <label class="container">
+                    <input type="checkbox" name="venue" value="gallery">Gallery
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="venue" value="museum">Museum
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="checkbox" name="venue" value="outside">Outside
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="price">
+                <div class="sub-btn"><h3>Price range</h3><i class="fas fa-angle-up"></i></div>  <!-- Click to toggle submenu -->
+                <div class="submenu">
+                    <label class="container">
+                        <input type="checkbox" name="price" value="free">Free
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">
+                        <input type="checkbox" name="price" value="lower price">Lower Price
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">
+                        <input type="checkbox" name="price" value="middle price">Middle Price
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">
+                        <input type="checkbox" name="price" value="over price">Over Price
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="exhibitiontype">
+                <div class="sub-btn"><h3>Types</h3><i class="fas fa-angle-up"></i></div>
+                <div class="submenu">
+                    <label class="container">
+                        <input type="checkbox" name="exhibitiontype" value="solo">Solo
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">
+                        <input type="checkbox" name="exhibitiontype" value="duo">Duo
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">
+                        <input type="checkbox" name="exhibitiontype" value="group">Group
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="activities">
+                <div class="sub-btn"><h3>Activities</h3><i class="fas fa-angle-up"></i></div>
+                <div class="submenu">
+                    <label class="container">
+                        <input type="checkbox" name="activities" value="exhibition">Exhibition
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">
+                        <input type="checkbox" name="activities" value="workshop">Workshop
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <div class="search-result"></div>
+    <section id="uzesSection">
+        <div class="medeelel">
+            <h1 id="prods">Uzesgelenguud</h1>
+            <article>
+                <h2>artcile</h2>
+                <img src="" alt="">
+                <p>prag</p>
+                <gobi-productlist direction="column"></gobi-productlist>
+            </article>
+        </div>
+    </section>
+</div>
+<div class="cartTab">
+    <h1>Your tickets are here:</h1>
+    <div class="listCart"></div>
+    <div id="totalPriceDisplay"></div>
+    <div class="btn">
+        <button class="close">Хаах</button>
+        <button class="checkOut">Төлбөр төлөх</button>
+    </div>
+</div>
+<footer class="footer">
+    <div class="cont">
+        <div class="row">
+            <div class="footer-col">
+                <h4><img src="images/logo-white.png"></h4>
+                <ul>
+                    <li><a href="search.html">үзэсгэлэн</a></li>
+                    <li><a href="artist.html">Уран бүтээлчид</a></li>
+                    <li><a href="gallery.html">бүтээлүүд</a></li>
+                    <li><a href="aboutus.html">Бидний тухай</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>location</h4>
+                <ul>
+                    <li><address>Улаанбаатар 14240 СБД, 8-р хороо, Амарын гудамж, Тэнгэрлиг медиа групп <br>&#9742; 1111-2222</address></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>about us</h4>
+                <ul>
+                    <li><a href="aboutus.html">history</a></li>
+                    <li><a href="aboutus.html">Team members</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/enh.bayr.549?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/enh.bayr.549?mibextid=LQQJ4d"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/enxvshh?igsh=NjVqdTFzeWw0bnFn&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/enxvshh?igsh=NjVqdTFzeWw0bnFn&utm_source=qr"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerend">
+        <p>&copy; 2024 Art Humrug. Бүх эрх хуулиар хамгаалагдсан.</p>
+    </div>
+</footer>
+<script src="toggle.js"></script> 
+</body>
+</html>
