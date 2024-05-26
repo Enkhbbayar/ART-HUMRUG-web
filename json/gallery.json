@@ -1,0 +1,197 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "title": "The Mongolian National Modern Art Exhibition",
+      "artist_name": "Enhbayr Huree",
+      "genre": "Modern Art",
+      "description": "A showcase of Mongolian modern art organized for the 20th time.",
+      "images": "images/gif-4.gif"
+    },
+    {
+      "id": 2,
+      "title": "Abstract Art in Mongolia",
+      "artist_name": "Ganbat Dorj",
+      "genre": "Abstract",
+      "description": "A collection of abstract art by Ganbat Dorj.",
+      "images": "images/img-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Traditional Mongolian Painting",
+      "artist_name": "Tsetseg Altan",
+      "genre": "Traditional Art",
+      "description": "Traditional Mongolian painting styles on display.",
+      "images": "images/img-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Sculptures of Mongolia",
+      "artist_name": "Altanbagana Erdenet",
+      "genre": "Sculpture",
+      "description": "An exhibition of traditional and modern sculptures.",
+      "images": "images/img-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Photography of Mongolia",
+      "artist_name": "Odgerel Tumen",
+      "genre": "Photography",
+      "description": "Stunning photographs showcasing Mongolia's beauty.",
+      "images": "images/img-5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Modern Art II",
+      "artist_name": "Chinbat Batbayar",
+      "genre": "Modern Art",
+      "description": "An exploration of modern art trends.",
+      "images": "images/img-6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mongolian Ceramics",
+      "artist_name": "Batbayar Chimed",
+      "genre": "Ceramics",
+      "description": "Beautifully crafted Mongolian ceramics on display.",
+      "images": "images/img-7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Digital Art Showcase",
+      "artist_name": "Bat-Erdene Bold",
+      "genre": "Digital Art",
+      "description": "A showcase of digital artwork and designs.",
+      "images": "images/gif-1.gif"
+    },
+    {
+      "id": 9,
+      "title": "Mixed Media Art",
+      "artist_name": "Bataa Altan",
+      "genre": "Mixed Media",
+      "description": "Combining various media for unique artworks.",
+      "images": "images/img-9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Mongolian Graffiti",
+      "artist_name": "Bayanjargal Enkhbaatar",
+      "genre": "Graffiti",
+      "description": "An exhibition of Mongolian graffiti and street art.",
+      "images": "images/img-10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Sculpture II",
+      "artist_name": "Amgalan Erdenebaatar",
+      "genre": "Sculpture",
+      "description": "Exploring new styles in sculpture art.",
+      "images": "images/img-11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Mongolian Textile Art",
+      "artist_name": "Tsetsgee Enkhjargal",
+      "genre": "Textile Art",
+      "description": "Creative textile artwork and designs.",
+      "images": "images/img-12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Contemporary Mongolian Art",
+      "artist_name": "Boldbaatar Altan",
+      "genre": "Contemporary Art",
+      "description": "Innovative contemporary artworks on display.",
+      "images": "images/img-13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Installation Art",
+      "artist_name": "Chimed-Undur Baasan",
+      "genre": "Installation Art",
+      "description": "Installation art that challenges conventional boundaries.",
+      "images": "images/img-14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Modern Art III",
+      "artist_name": "Enkhbold Byambasuren",
+      "genre": "Modern Art",
+      "description": "Another exploration into modern art trends.",
+      "images": "images/gif-3.gif"
+    },
+    {
+      "id": 16,
+      "title": "Graffiti II",
+      "artist_name": "Erdenebayar Gansukh",
+      "genre": "Graffiti",
+      "description": "Continuing the exploration of Mongolian graffiti and street art.",
+      "images": "images/img-16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Traditional Mongolian Sculpture",
+      "artist_name": "Bayarsaikhan Altan",
+      "genre": "Traditional Sculpture",
+      "description": "Traditional sculpture art with unique Mongolian designs.",
+      "images": "images/img-17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Modern Art IV",
+      "artist_name": "Naran Enkhbat",
+      "genre": "Modern Art",
+      "description": "Further explorations into modern art trends.",
+      "images": "images/img-18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Mongolian Portrait Photography",
+      "artist_name": "Erdene Batbayar",
+      "genre": "Photography",
+      "description": "Beautiful portrait photography from Mongolia.",
+      "images": "images/img-19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Mixed Media II",
+      "artist_name": "Tsogtbat Ganbold",
+      "genre": "Mixed Media",
+      "description": "Continuing the exploration into mixed media.",
+      "images": "images/img-20.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Modern Art V",
+      "artist_name": "Zolzaya Amgalan",
+      "genre": "Modern Art",
+      "description": "Further explorations into modern art.",
+      "images": "images/img-21.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Modern Art V",
+      "artist_name": "Zolzaya Amgalan",
+      "genre": "Modern Art",
+      "description": "Further explorations into modern art.",
+      "images": "images/gif-5.gif"
+    },
+    {
+      "id": 23,
+      "title": "Modern Art V",
+      "artist_name": "Zolzaya Amgalan",
+      "genre": "Modern Art",
+      "description": "Further explorations into modern art.",
+      "images": "images/img-23.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Modern Art V",
+      "artist_name": "Zolzaya Amgalan",
+      "genre": "Modern Art",
+      "description": "Further explorations into modern art.",
+      "images": "images/img-24.jpg"
+    }
+
+  ]
+}
