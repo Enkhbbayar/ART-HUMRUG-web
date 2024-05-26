@@ -4,6 +4,7 @@
     --text-color-default-black: #000000;
     --text-color-default-white: #ffffff;
     --primary-color: #007474;
+    --primary-color-darker: #004d4d;
     --footer-background-color-darker: #222121;
     --footer-border-color-lighter: #898888;
     --footer-text-color-side: #CCCCCC;
@@ -20,10 +21,13 @@
     --title-fontzise-p:24px;
     --font-size-16px:16px;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: var(--nav--fontsize);
 }
 body{
@@ -34,4 +38,30 @@ a{
 }
 li{
     list-style-type: none;
+}
+
+.heart-button {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.heart-icon {
+    fill: transparent;
+    stroke: black;
+    stroke-width: 30;
+    transition: all 0.8s;
+}
+.heart-icon.active {
+    animation: like 0.5s 1;
+    color: red;
+}
+
+.bx-heart.active {
+    color: red;
+}
+
+@-webkit-keyframes like {
+    0% { transform: scale(1); }
+    90% { transform: scale(1.2); }
+    100% { transform: scale(1.1); }
 }
