@@ -25,25 +25,25 @@
     vertical-align: top;
   }
 .artists-item-1{
-    background-image: var(--img-shadow-default), url('images/artist-1.jpg');
+    background-image: var(--img-shadow-default), url('/images/artist-1.jpg');
 }
 .artists-item-2{
-    background-image: var(--img-shadow-default), url('images/artist-2.jpg');
+    background-image: var(--img-shadow-default), url('/images/artist-2.jpg');
 }
 .artists-item-3{
-    background-image: var(--img-shadow-default), url('images/artist-3.jpg');
+    background-image: var(--img-shadow-default), url('/images/artist-3.jpg');
 }
 .artists-item-4{
-    background-image: var(--img-shadow-default), url('images/artist-1.jpg');
+    background-image: var(--img-shadow-default), url('/images/artist-1.jpg');
 }
 .artists-item-5{
-    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-2.jpg');
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('/images/artist-2.jpg');
 }
 .artists-item-{
-    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-2.jpg');
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('/images/artist-2.jpg');
 }
 .artists-rec-1{
-    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/rec-1.jpg');
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('/images/rec-1.jpg');
 }
 .artists-rec-1{
     background-size: cover;

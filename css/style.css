@@ -571,17 +571,17 @@ li{
   line-height: 24px;
   }
   .news:nth-child(1){
-    background-image: var(--img-shadow-default), url('images/news-1.jpg');
+    background-image: var(--img-shadow-default), url('/images/news-1.jpg');
     grid-area: news1;
   }
   
   .news:nth-child(2) {
-    background-image: var(--img-shadow-default), url('images/news-2.jpg');
+    background-image: var(--img-shadow-default), url('/images/news-2.jpg');
     grid-area: news2;
   }
   
   .news:nth-child(3) {
-    background-image: var(--img-shadow-default), url('images/news-3.jpg');
+    background-image: var(--img-shadow-default), url('/images/news-3.jpg');
     grid-area: news3;
   }
   .recommend{
@@ -599,7 +599,7 @@ li{
         flex: 1;
         border-radius:12px;
         padding-top: var(--main-padding);
-        background-image: var(--img-shadow-default), url('images/Rectangle\ 141.png');
+        background-image: var(--img-shadow-default), url('/images/Rectangle\ 141.png');
         background-size: cover;
         display: flex;
         align-items: center;
@@ -640,7 +640,7 @@ li{
 .advert{
   grid-area: advert;
     display: flex;
-    background-image: url(images/Group\ 55.png);
+    background-image: url(/images/Group\ 55.png);
     height: 150px;
     padding: 5%;
     color: var(--text-color-default-white);
@@ -725,7 +725,7 @@ li{
         width: 400px;
         border-radius:12px;
         padding-top: var(--main-padding);
-        background-image: var(--img-shadow-default), url('images/rec-2.png');
+        background-image: var(--img-shadow-default), url('/images/rec-2.png');
         object-fit: cover;
         display: flex;
         align-items: center;
@@ -770,7 +770,7 @@ li{
         width: 400px;
         border-radius:12px;
         padding-top: var(--main-padding);
-        background-image: var(--img-shadow-default), url('images/rec-2.png');
+        background-image: var(--img-shadow-default), url('/images/rec-2.png');
         object-fit: cover;
         display: flex;
         align-items: center;
